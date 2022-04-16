@@ -1,0 +1,36 @@
+.footer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.logo{
+    position: relative;
+    margin: 1em 0;
+}
+
+.menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.menuList{
+    margin: auto 10px;
+    color: rgb(198, 198, 198);
+    transition: all .3s ease;
+    font-size: .9rem;
+}
+.menuList:hover{
+    color: white;
+}
+.rights{
+    position: relative;
+    font-size: .7rem;
+    margin: 1em 0;
+}

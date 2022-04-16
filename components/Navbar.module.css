@@ -1,0 +1,48 @@
+.nav{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #010101;
+    color: rgb(205, 205, 205);
+    max-width: 1440px;
+    margin: 0 auto;
+    z-index: 99;
+}
+.logo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    /* background-color: rgb(102, 90, 74); */
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    /* background-color: rgb(22, 31, 31); */
+}
+
+.menu_item{
+    position: relative;
+    font-size: 1rem;
+    margin-right: 12px;
+    color: rgb(198, 198, 198);
+    transition: all .3s ease;
+}
+.menu_item:hover{
+    color: white;
+}
+
+.ld{
+    position: relative;
+    display: block;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    /* background-color: blue; */
+}

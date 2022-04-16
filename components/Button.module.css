@@ -1,0 +1,12 @@
+.btn{
+    color: cadetblue;
+    margin: 1em 0;
+    text-transform: uppercase;
+    font-size: .8rem;
+    border-bottom: 1px solid transparent;
+    transition: .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.btn:hover{
+    border-bottom: 1px solid rgb(120, 201, 203);
+    color:rgb(120, 201, 203);
+}
